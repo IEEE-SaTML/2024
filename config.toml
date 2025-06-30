@@ -112,9 +112,15 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 55
 
 [[menu.main]]
-  url = "/past"
   name = "Past Editions"
   weight = 100
+  identifier = "past"
+
+[[menu.main]]
+  name = "2023"
+  url = "https://satml.org/2023"
+  parent = "past"
+  weight = 101
 
 [[menu.footer]]
   url = "#"
